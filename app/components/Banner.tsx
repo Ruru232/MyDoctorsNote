@@ -16,7 +16,7 @@ export default function Banner() {
 
       <div className="relative flex flex-col items-center ">
         <h2 className="leading-8 tracking-wide font-bold text-[28px] md:text-[46px] md:leading-16 ">
-          Your Doctor's Note
+          Your Doctor&apos;s Note
           <span className="block">In 1 Minute, for $29.99!</span>
         </h2>
         <LineSvg color="white" />

@@ -18,9 +18,9 @@ export default function DoctorsNoteSection() {
       </div>
       <div>
         <p className="text-base md:text-lg leading-6 tracking-[0.6px] px-0 xl:px-[335px] ">
-          My Doctor's Note provides a fast, hassle-free solution for obtaining
-          excuse notes. Focus on your recovery while we take care of the
-          paperwork, delivering your note in minutes.
+          My Doctor&apos;s Note provides a fast, hassle-free solution for
+          obtaining excuse notes. Focus on your recovery while we take care of
+          the paperwork, delivering your note in minutes.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-4 mt-5">

@@ -7,7 +7,7 @@ const EasyStepsSection = () => {
     <div className="max-w-full px-4 xl:px-30 2xl:px-[600px]">
       <div className="flex flex-col items-center justify-center py-2 my-4 ">
         <h2 className="text-center text-3xl md:text-5xl font-semibold leading-10 md:leading-15 tracking-wide">
-          Get An Online Doctor's
+          Get An Online Doctor&apos;s
           <span className="block">Note In 3 Easy Steps</span>
         </h2>
         <div className="mt-3 px-3 md:px-10 xl:px-72 2xl:px-96 ">
