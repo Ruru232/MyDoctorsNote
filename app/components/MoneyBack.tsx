@@ -14,7 +14,7 @@ export const MoneyBack = () => {
             Money Back Guarantee!
           </h2>
           <p className="text-center md:text-start font-semibold text-base md:text-lg leading-6 mt-4 px-5 md:px-0 pb-10">
-            We will refund 100% of your payment, in case you're not 100%
+            We will refund 100% of your payment, in case you&apos;re not 100%
             satisfied with our service.
           </p>
         </div>

@@ -1,24 +1,24 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 export default function LogoBar() {
   const [showLogo, setShowLogo] = useState(true);
-  let lastScrollY = 0;
+  const lastScrollY = useRef(0);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
-      if (scrollY > lastScrollY) {
+      if (scrollY > lastScrollY.current) {
         setShowLogo(false);
       } else {
         setShowLogo(true);
       }
 
-      lastScrollY = scrollY;
+      lastScrollY.current = scrollY;
     };
 
     window.addEventListener('scroll', handleScroll);
